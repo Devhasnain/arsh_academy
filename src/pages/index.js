@@ -1,7 +1,5 @@
-import Image from 'next/image'
+import AddDetails from '@/components/AddDetails'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
-import UserInfo from '@/components/UserInfo'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,8 +8,7 @@ export default function Home() {
     <main
       className={`${inter.className}`}
     >
-      <Navbar/>
-      <UserInfo/>
+     <AddDetails/>
     </main>
   )
 }
