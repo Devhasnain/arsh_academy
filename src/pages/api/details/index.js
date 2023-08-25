@@ -2,10 +2,6 @@
 import multer from "multer";
 import { connectMongoDB } from "@/lib/mongodb";
 import Applications from "@/models/applications";
-import formidable from "formidable";
-
-let auther = 'Ashra Academy';
-let autherEmail = 'hasnainalam1166@gmail.com'
 
 const upload = multer({
     limits: {
